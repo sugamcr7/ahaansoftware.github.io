@@ -1,0 +1,40 @@
+.tab{
+    background-image: url('../../assets/pattern.png');
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+.custom-btn {
+    background-color:#F9F5FF;
+    color: #7d48e0;
+    border: 1px solid #bea0f7;
+    border-radius: 20px;
+    padding: 5px 12px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .custom-btn:hover {
+    background-color: #7d48e0;
+    color: white;
+  }
+  
+.tab-heading h2{
+    text-align: left;
+    color: #43387B;
+  }
+  .tab-heading p{
+    text-align: left;
+    font-size: 14px;
+    width:70%;
+  }
+  .nav-pills {
+    --bs-nav-pills-link-active-bg: #7E61BF;
+}
+.nav-item {
+    background-color:#EFF4FF;
+    --bs-nav-link-color: #7E61BF;
+    --bs-nav-link-hover-color: #7E61BF;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80%;
+}

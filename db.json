@@ -1,0 +1,11 @@
+{
+    "cards": [
+      { "image": "https://via.placeholder.com/300x200", "title": "Card 1", "text": "This is card number 1." },
+      { "image": "https://via.placeholder.com/300x200", "title": "Card 2", "text": "This is card number 2." },
+      { "image": "https://via.placeholder.com/300x200", "title": "Card 3", "text": "This is card number 3." },
+      { "image": "https://via.placeholder.com/300x200", "title": "Card 4", "text": "This is card number 4." },
+      { "image": "https://via.placeholder.com/300x200", "title": "Card 5", "text": "This is card number 5." },
+      { "image": "https://via.placeholder.com/300x200", "title": "Card 6", "text": "This is card number 6." }
+    ]
+  }
+  

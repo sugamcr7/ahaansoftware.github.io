@@ -1,0 +1,154 @@
+
+.about-section {
+    background-image: url('../../assets/back.png');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px 0px 20px;
+      font-family: "Open Sans", sans-serif;
+    }
+    
+    /* Flexbox layout for content */
+    .about-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1200px;
+    }
+    
+    
+    
+    .about-heading {
+      font-size: 2.7rem;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #453A7A;
+    }
+    
+    .about-subheading {
+      font-size: 1rem;
+      margin-bottom: 15px;
+      color: #212122;
+    }
+    
+    .btn-about {
+      background-color: #453A7A;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 30px;
+      color: #fff;
+      cursor: pointer;
+    }
+    .about-image{
+      width:500px;
+        border-radius: 30px;
+    }
+    h3{
+        color: #43387B;
+    }
+    h4{
+        color: #43387B;
+        text-decoration:underline;
+    }
+     
+   
+    
+    
+  
+    /* animation */
+    @keyframes fadeInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(50px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(50px); /* Start slightly to the right */
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0); /* End at the original position */
+      }
+    }
+    
+    /* Fade-in-right animation class */
+    .fade-in-right {
+      animation: fadeInRight 1s ease-in-out;
+    }
+    
+    /* Fade-in left animation */
+    .fade-in-left {
+      animation: fadeInLeft 1s ease-in-out;
+    }
+    
+    /* Fade-in up animation */
+    .fade-in-up {
+      animation: fadeInUp 1s ease-in-out;
+    }
+    .left-side {
+      flex: 1;
+      margin-right: 20px;
+    }
+    .right-side {
+      flex: 1;
+    }
+  
+    @media (max-width: 767px) {
+      .about-content {
+        flex-direction: column;
+       
+      }
+    
+      .left-side {
+        width: 100%;
+        margin: 20px 20px;
+      }
+    
+      .about-heading {
+        font-size: 28px;
+      }
+    
+      .about-subheading {
+        font-size: 14px;
+      }
+    
+      .right-side {
+        width: 100%;
+      }
+      .about-image{
+        width:335px;
+      }
+    }
+    
+    @media (max-width: 576px) {
+      .about-heading {
+        font-size: 24px;
+      }
+    
+      .btn-about {
+       
+        font-size: 16px;
+      }
+    }
+  
